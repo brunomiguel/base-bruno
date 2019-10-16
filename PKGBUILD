@@ -1,7 +1,7 @@
 # Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
 
 pkgname='base-bruno'
-pkgdesc="A metapackage for some packages I find essential"
+pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
 pkgver='0.0.1'
 pkgrel=1
 
