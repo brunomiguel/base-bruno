@@ -1,0 +1,103 @@
+# Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
+
+pkgname='base-bruno'
+pkgdesc="A metapackage for some packages I find essential"
+pkgver='0.0.1'
+pkgrel=1
+
+url='https://github.com/brunomiguel/userrepository'
+arch=('x86_64')
+license=('GPL3')
+
+depends=(
+	tmux
+	rxvt-unicode
+	urxvt-tabbedex
+	roxterm
+	bitwarden-bin
+	i3-gaps-rounded-git
+	polybar
+	rofi
+	compton-tryone-git
+	vlc
+	brave-dev-bin
+	firefox
+	firefox-i18n-pt-pt
+	gimp
+	flameshot
+	gimp-plugin-gmic
+	gimp-refocus
+	libreoffice-fresh
+	vim
+	ttf-fira-go
+	ttf-fira-mono-ibx
+	ttf-league-mono
+	ttf-inter-ui
+	steam
+	spotify
+	spicetify-cli
+	scat
+	scaleway-cli
+	reflector
+	redshift
+	htop
+	pavucontrol
+	openvpn
+	openssh
+	nitrogen
+	mpv-acestream
+	micro
+	kvantum-qt5
+	kvantum-theme-materia
+	korla-icon-theme
+	jpegoptim
+	optipng
+	interui-otf
+	htop
+	git
+	base-devel
+	falkon-git
+	cpupower
+	arc-icon-theme
+	bash-completion
+	plasma-desktop
+	konsole
+	ark
+	gwenview
+	kde-gtk-config
+	kdeplasma-addons
+	ksysguard
+	powerdevil
+	user-manager
+	spectacle
+	kio-extras
+	kipi-plugins
+	kcalc
+	kcron
+	okular
+	dolphin
+	dolphin-plugins
+	kate
+	sweeper
+	kdeconnect
+	oxygen
+	youtube-dl
+	unrar
+	unzip
+	pngzop
+	plasma-nm
+	plasma-pa
+	plasma5-applets-redshift-control
+	pfetch-git
+	konsole
+	inxi
+	brightnessctl-git
+	broot
+	acestream-launcher
+	ranger
+	curseradio-git
+	okular
+	kate
+	print-manager
+	cups
+)
