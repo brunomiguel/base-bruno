@@ -6,7 +6,7 @@ pkgver='0.0.1'
 pkgrel=1
 
 url='https://github.com/brunomiguel/userrepository'
-arch=('x86_64')
+arch=('any')
 license=('GPL3')
 
 depends=(
