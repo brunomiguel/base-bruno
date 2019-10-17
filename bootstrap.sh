@@ -8,7 +8,7 @@ userrepository() {
 	read -p "Continue adding userrepository repo (y/n)?" CONT
 	if [ "$CONT" = "y" ]; then
 		echo -e "Adding userrepository to /etc/pacman.conf..."
-		echo -e '\n[userrepository]\nServer = https://userrepository.eu\nSigLevel = Optional TrustAll' | sudo tee -a pacman.conf
+		echo -e '\n[userrepository]\nServer = https://userrepository.eu\nSigLevel = Optional TrustAll' | sudo tee -a /etc/pacman.conf
 		echo "Done.\n"
 		sleep 2s
 	else
