@@ -100,4 +100,13 @@ depends=(
 	kate
 	print-manager
 	cups
+	acestream-engine
+	boston-icon-theme-git
+	gamehub
+	gotop-git
+	pakku
+	profile-cleaner
+	qjournalctl
+	terminal-markdown-viewer
+	trimage
 )
