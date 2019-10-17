@@ -1,112 +1,50 @@
 # Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
 
-pkgname='base-bruno'
+pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.1'
+pkgver='0.0.2'
 pkgrel=1
 
-url='https://github.com/brunomiguel/userrepository'
+url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
 license=('GPL3')
 
 depends=(
-	tmux
-	rxvt-unicode
-	urxvt-tabbedex
-	roxterm
-	bitwarden-bin
-	i3-gaps-rounded-git
-	polybar
-	rofi
-	compton-tryone-git
-	vlc
-	brave-dev-bin
-	firefox
-	firefox-i18n-pt-pt
-	gimp
-	flameshot
-	gimp-plugin-gmic
-	gimp-refocus
-	libreoffice-fresh
-	vim
-	ttf-fira-go
-	ttf-fira-mono-ibx
-	ttf-league-mono
-	ttf-inter-ui
-	steam
-	spotify
-	spicetify-cli
-	scat
-	scaleway-cli
-	reflector
-	redshift
-	htop
-	pavucontrol
-	openvpn
-	openssh
-	nitrogen
-	mpv-acestream
-	micro
-	kvantum-qt5
-	kvantum-theme-materia
-	korla-icon-theme
-	jpegoptim
-	optipng
-	interui-otf
-	htop
-	git
-	base-devel
-	falkon-git
-	cpupower
-	arc-icon-theme
-	bash-completion
-	plasma-desktop
-	konsole
-	ark
-	gwenview
-	kde-gtk-config
-	kdeplasma-addons
-	ksysguard
-	powerdevil
-	user-manager
-	spectacle
-	kio-extras
-	kipi-plugins
-	kcalc
-	kcron
-	okular
-	dolphin
-	dolphin-plugins
-	kate
-	sweeper
-	kdeconnect
-	oxygen
-	youtube-dl
-	unrar
-	unzip
-	pngzop
-	plasma-nm
-	plasma-pa
-	plasma5-applets-redshift-control
-	pfetch-git
-	konsole
-	inxi
-	brightnessctl-git
-	broot
-	acestream-launcher
-	ranger
-	curseradio-git
-	okular
-	kate
-	print-manager
-	cups
-	acestream-engine
-	boston-icon-theme-git
-	gamehub
-	gotop-git
-	pakku
-	profile-cleaner
-	qjournalctl
-	terminal-markdown-viewer
-	trimage
+    # base
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'base-devel' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion'
+	
+	# editors
+	'vim' 'micro' 'marktext-bin' 'notable-bin' 'quilter'
+	
+	# cli utilities
+	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups'
+	
+	# multimedia
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop'
+	
+	# fonts
+	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf'
+	
+	# plasma (somewhat minimal)
+	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager'
+	
+	# browsers
+	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
+	
+	# desktop utilities
+	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight'
+	
+	# security
+	'bitwarden-bin'
+	
+	# i3
+	'i3-gaps-rounded-git' 'polybar' 'rofi' 'compton-tryone-git' 'nitrogen'
+	
+	# themes and icons
+	'korla-icon-theme' 'arc-icon-theme' 'boston-icon-theme-git'	
+	
+	#gamimg
+	'steam' 'gamehub'
+	
+	
 )
