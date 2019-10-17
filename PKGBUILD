@@ -1,4 +1,4 @@
-# Maintainer: Bruno Miguel <brunoalexandremiguel@gmail.com>
+# Maintainer: Bruno Miguel <https://twitter.com/brunomiguel>
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
