@@ -43,8 +43,9 @@ depends=(
 	# themes and icons
 	'korla-icon-theme' 'arc-icon-theme' 'boston-icon-theme-git'	
 	
-	#gamimg
+	# gamimg
 	'steam' 'gamehub'
 	
 	
 )
+
