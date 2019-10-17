@@ -26,7 +26,7 @@ depends=(
 	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf'
 	
 	# plasma (somewhat minimal)
-	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager'
+	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# browsers
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
