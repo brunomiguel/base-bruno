@@ -16,7 +16,7 @@ userrepository() {
 	read -p "Continue adding userrepository repo (Y/n)?" cont
 	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Adding userrepository to /etc/pacman.conf..."
-		sudo tee -a pacman.conf <<EOD
+		sudo tee -a /etc/pacman.conf <<EOD
 
 [userrepository]
 Server = https://userrepository.eu
