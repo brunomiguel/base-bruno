@@ -4,11 +4,24 @@ groups=(
   "base-devel"
 )
 
+forceclose() {
+	echo -e "\n\nForcing script termination..."
+	sleep 0.5s
+	echo -e "Terminated. Bye!"
+}
+trap forceclose EXIT
+
 userrepository() {
-	read -p "Continue adding userrepository repo (y/n)?" CONT
-	if [ "$CONT" = "y" ]; then
+	local cont
+	read -p "Continue adding userrepository repo (Y/n)?" cont
+	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Adding userrepository to /etc/pacman.conf..."
-		echo -e '\n[userrepository]\nServer = https://userrepository.eu\nSigLevel = Optional TrustAll' | sudo tee -a /etc/pacman.conf
+		sudo tee -a pacman.conf <<EOD
+
+[userrepository]
+Server = https://userrepository.eu
+SigLevel = Optional TrustAll
+EOD
 		echo "Done.\n"
 		sleep 2s
 	else
@@ -25,8 +38,9 @@ refresh() {
 }
 
 groupinstall() {
-	read -p "Continue adding required groups (y/n)?" CONT
-	if [ "$CONT" = "y" ]; then
+	local cont
+	read -p "Continue adding userrepository repo (Y/n)?" cont
+	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Installing base groups..."
 		sudo pacman -Syuv ${groups[@]}
 		echo "Done.\n"
@@ -37,8 +51,9 @@ groupinstall() {
 }
 
 metapackage() {
-	read -p "Continue building metapackage (y/n)?" CONT
-	if [ "$CONT" = "y" ]; then
+	local cont
+	read -p "Continue adding userrepository repo (Y/n)?" cont
+	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Building and installing metapackage..."
 		makepkg -C -c -d -f -i
 		echo "Done.\n"
