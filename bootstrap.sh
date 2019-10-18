@@ -22,7 +22,7 @@ userrepository() {
 Server = https://userrepository.eu
 SigLevel = Optional TrustAll
 EOD
-		echo "Done.\n"
+		echo -e "Done.\n"
 		sleep 2s
 	else
 		echo -e "Skipped an essential step. Aborting..."
@@ -33,17 +33,17 @@ EOD
 refresh() {
 	echo -e "Userrepository enabled. Now refreshing mirrors and installing any updates available..."
 	sudo pacman -Syyuv --noconfirm
-	echo "Done.\n"
+	echo -e "Done.\n"
 	sleep 2s
 }
 
 groupinstall() {
 	local cont
-	read -p "Continue adding userrepository repo (Y/n)?" cont
+	read -p "Continue adding required groups (Y/n)?" cont
 	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Installing base groups..."
-		sudo pacman -Syuv ${groups[@]}
-		echo "Done.\n"
+		sudo pacman -Syuv "${groups[@]}"
+		echo -e "Done.\n"
 		sleep 2s
 	else
 		echo "Skipped..."
@@ -52,11 +52,11 @@ groupinstall() {
 
 metapackage() {
 	local cont
-	read -p "Continue adding userrepository repo (Y/n)?" cont
+	read -p "Continue building metapackage (Y/n)?" cont
 	if [[ ${cont,,} =~ ^(yes|y| ) ]] || [[ -z ${cont,,} ]]; then
 		echo -e "Building and installing metapackage..."
 		makepkg -C -c -d -f -i
-		echo "Done.\n"
+		echo -e "Done.\n"
 		sleep 2s
 	else
 		echo "Skipped..."
