@@ -11,19 +11,22 @@ license=('GPL3')
 
 depends=(
     	# base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop'
+	
+	#kernels
+	'linux-xanmod' 'linux-xanmod-headers' 'linux-zen' 'linux-zen-headers'
 	
 	# editors
 	'vim' 'micro' 'marktext-bin' 'notable-bin' 'quilter'
 	
 	# cli utilities
-	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups'
+	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich'
 	
 	# multimedia
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop'
 	
 	# fonts
-	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf'
+	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono'
 	
 	# plasma (somewhat minimal)
 	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
