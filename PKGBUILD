@@ -10,7 +10,7 @@ arch=('any')
 license=('GPL3')
 
 depends=(
-    # base
+    	# base
 	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion'
 	
 	# editors
