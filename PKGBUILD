@@ -31,6 +31,9 @@ depends=(
 	# plasma (somewhat minimal)
 	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
+	# lxqt
+	'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
+	
 	# browsers
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
 	
