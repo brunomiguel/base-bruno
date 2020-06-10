@@ -2,7 +2,7 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.2'
+pkgver='0.0.3'
 pkgrel=2
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -14,25 +14,25 @@ depends=(
 	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop'
 	
 	#kernels
-	'linux-xanmod' 'linux-xanmod-headers' 'linux-zen' 'linux-zen-headers'
+	'linux-zen' 'linux-zen-headers'
 	
 	# editors
-	'vim' 'micro' 'marktext-bin' 'notable-bin' 'quilter'
+	'vim' 'micro' 'marktext-bin' 'quilter' 'qownnotes' 'focuswriter'
 	
 	# cli utilities
-	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich'
+	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps'
 	
 	# multimedia
-	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop'
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
 	
 	# fonts
-	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono'
+	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-san-francisco-mono' 'otf-san-francisco-pro' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
 	
 	# plasma (somewhat minimal)
 	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'plasma5-applets-redshift-control' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# lxqt
-	'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
+	# 'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
 	
 	# browsers
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
