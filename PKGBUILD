@@ -3,7 +3,7 @@
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
 pkgver='0.0.3'
-pkgrel=3
+pkgrel=4
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -44,7 +44,7 @@ depends=(
 	'bitwarden-bin'
 	
 	# i3
-	'i3-gaps-rounded-git' 'polybar' 'rofi' 'picom-ibhagwan-git' 'nitrogen'
+	'i3-gaps' 'polybar' 'rofi' 'picom-ibhagwan-git' 'nitrogen'
 	
 	# themes and icons
 	'korla-icon-theme' 'arc-icon-theme' 'boston-icon-theme-git'	
