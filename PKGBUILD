@@ -11,16 +11,16 @@ license=('GPL3')
 
 depends=(
     	# base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop-git' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop' 'cht.sh'
 	
 	#kernels
-	'linux-zen' 'linux-zen-headers'
+	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers' 'linux-amd' 'linux-amd-headers'
 	
 	# editors
 	'vim' 'micro' 'marktext-bin' 'quilter' 'qownnotes' 'focuswriter'
 	
 	# cli utilities
-	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps'
+	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps' 'glow'
 	
 	# multimedia
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
@@ -38,13 +38,13 @@ depends=(
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
 	
 	# desktop utilities
-	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight'
+	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight' 'kde-rounded-corners-git'
 	
 	# security
 	'bitwarden-bin'
 	
 	# i3
-	'i3-gaps-rounded-git' 'polybar' 'rofi' 'compton-tryone-git' 'nitrogen'
+	'i3-gaps-rounded-git' 'polybar' 'rofi' 'picom-ibhagwan-git' 'nitrogen'
 	
 	# themes and icons
 	'korla-icon-theme' 'arc-icon-theme' 'boston-icon-theme-git'	
