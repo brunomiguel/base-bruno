@@ -2,8 +2,8 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.5'
-pkgrel=2
+pkgver='0.0.6'
+pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -20,7 +20,7 @@ depends=(
 	'vim' 'micro' 'marktext-bin' 'quilter' 'qownnotes' 'focuswriter'
 	
 	# cli utilities
-	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps' 'glow'
+	'terminal-markdown-viewer' 'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps' 'glow' 'bigtime'
 	
 	# multimedia
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'pngzop' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
