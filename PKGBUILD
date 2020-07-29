@@ -11,7 +11,7 @@ license=('GPL3')
 
 depends=(
     	# base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'pakku' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop' 'cht.sh' 'cheat'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'yay' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop' 'cht.sh' 'cheat'
 	
 	#kernels
 	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers' 'linux-amd' 'linux-amd-headers'
