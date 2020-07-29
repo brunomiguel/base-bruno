@@ -23,7 +23,7 @@ depends=(
 	'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps' 'glow' 'bigtime'
 	
 	# multimedia
-	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'opting' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
 	
 	# fonts
 	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-san-francisco-mono' 'otf-san-francisco-pro' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
