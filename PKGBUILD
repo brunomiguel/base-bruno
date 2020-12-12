@@ -2,7 +2,7 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.7'
+pkgver='0.0.8'
 pkgrel=2
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -11,25 +11,25 @@ license=('GPL3')
 
 depends=(
     	# base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'yay' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'dotdrop' 'cht.sh' 'cheat'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'yay' 'inxi' 'brightnessctl-git' 'broot' 'ranger' 'htop' 'git' 'scat' 'scaleway-cli' 'reflector' 'qjournalctl' 'openvpn' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'cht.sh' 'cheat' 'fzf'
 	
 	#kernels
-	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers' 'linux-amd' 'linux-amd-headers'
+	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers'
 	
 	# editors
-	'vim' 'micro' 'marktext-bin' 'quilter' 'qownnotes' 'focuswriter'
+	'vim' 'micro' 'marktext-bin' 'emacs' 'qownnotes' 'typora' 'gedit'
 	
 	# cli utilities
-	'redshift' 'youtube-dl' 'unrar' 'unzip' 'spicetify-cli' 'pfetch-git' 'profile-cleaner' 'cups' 'bandwhich' 'zps' 'glow' 'bigtime'
+	'redshift' 'youtube-dl' 'unrar' 'unzip' 'pfetch-git' 'profile-cleaner' 'bandwhich' 'zps' 'glow' 'bigtime'
 	
 	# multimedia
-	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'spicetify-cli' 'pavucontrol' 'vlc' 'curseradio-git' 'mpv-acestream' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
 	
 	# fonts
 	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-san-francisco-mono' 'otf-san-francisco-pro' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
 	
 	# plasma (somewhat minimal)
-	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
+	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# lxqt
 	# 'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
@@ -38,7 +38,7 @@ depends=(
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
 	
 	# desktop utilities
-	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight'
+	'flameshot' 'libreoffice-fresh' 'filelight'
 	
 	# security
 	'bitwarden-bin'
@@ -51,6 +51,9 @@ depends=(
 	
 	# gamimg
 	'steam' 'gamehub'
+	
+	# chat
+	'telegram' 'konversation' 'hexchat' 'caprine' 'cawbird'
 	
 	
 )

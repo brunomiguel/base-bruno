@@ -26,7 +26,7 @@ EOD
 		sleep 2s
 	else
 		echo -e "Skipped an essential step. Aborting..."
-		exit 0
+		#exit 0
 	fi
 }
 
