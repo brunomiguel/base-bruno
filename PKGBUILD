@@ -29,7 +29,7 @@ depends=(
 	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-san-francisco-mono' 'otf-san-francisco-pro' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
 	
 	# plasma (somewhat minimal)
-	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'user-manager' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
+	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'okular' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# lxqt
 	# 'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
@@ -38,7 +38,7 @@ depends=(
 	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
 	
 	# desktop utilities
-	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight' 'kde-rounded-corners-git'
+	'roxterm' 'flameshot' 'libreoffice-fresh' 'filelight'
 	
 	# security
 	'bitwarden-bin'
