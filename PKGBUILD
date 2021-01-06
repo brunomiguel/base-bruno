@@ -2,8 +2,8 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.8'
-pkgrel=2
+pkgver='0.0.9'
+pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -17,7 +17,7 @@ depends=(
 	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers'
 	
 	# editors
-	'vim' 'micro' 'marktext-bin' 'emacs' 'qownnotes' 'typora' 'gedit'
+	'vim' 'micro' 'emacs' 'qownnotes' 'typora' 'gedit'
 	
 	# cli utilities
 	'redshift' 'youtube-dl' 'unrar' 'unzip' 'pfetch-git' 'profile-cleaner' 'bandwhich' 'zps' 'glow' 'bigtime'
