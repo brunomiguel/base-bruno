@@ -2,7 +2,7 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.10'
+pkgver='0.0.11'
 pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -35,7 +35,7 @@ depends=(
 	# 'lxqt-about' 'lxqt-admin' 'lxqt-arc-dark-theme-git' 'lxqt-config' 'lxqt-globalkeys' 'lxqt-notificationd' 'lxqt-openssh-askpass' 'lxqt-panel' 'lxqt-policykit' 'lxqt-powermanagement' 'lxqt-qtplugin' 'lxqt-runner' 'lxqt-session' 'lxqt-sudo' 'lxqt-themes'
 	
 	# browsers
-	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git' 'librewolf-bin'
+	'brave-dev-bin' 'firefox' 'firefox-i18n-pt-pt' 'falkon-git'
 	
 	# desktop utilities
 	'flameshot' 'libreoffice-fresh' 'filelight'
