@@ -2,7 +2,7 @@
 
 pkgname='bruno-essentials'
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.9'
+pkgver='0.0.10'
 pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -53,7 +53,7 @@ depends=(
 	'steam' 'gamehub'
 	
 	# chat
-	'telegram' 'konversation' 'hexchat' 'caprine' 'cawbird'
+	'konversation' 'hexchat' 'caprine' 'cawbird'
 	
 	
 )
