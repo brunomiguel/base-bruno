@@ -26,7 +26,7 @@ depends=(
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
 	
 	# fonts
-	'ttf-fira-go' 'ttf-fira-mono-ibx' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
+	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
 	
 	# plasma (somewhat minimal)
 	'kvantum-qt5' 'kvantum-theme-materia' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'sweeper' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
