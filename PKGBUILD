@@ -2,8 +2,8 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver='0.0.11'
-pkgrel=1
+pkgver=0.0.11
+pkgrel=2
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
