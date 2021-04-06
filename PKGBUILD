@@ -2,7 +2,7 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver=0.0.11
+pkgver=0.0.12
 pkgrel=2
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -23,7 +23,7 @@ depends=(
 	'redshift' 'youtube-dl' 'unrar' 'unzip' 'pfetch-git' 'profile-cleaner' 'bandwhich' 'zps' 'glow' 'bigtime'
 	
 	# multimedia
-	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'spotify' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'trimage' 'oxipng' 'chromium-widevine' 'trimage' 'imcompressor'
 	
 	# fonts
 	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'interui-otf' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
