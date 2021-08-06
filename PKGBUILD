@@ -3,7 +3,7 @@
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
 pkgver=0.0.15
-pkgrel=1
+pkgrel=2
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -23,7 +23,7 @@ depends=(
 	'youtube-dl' 'unrar' 'unzip' 'pfetch-git' 'profile-cleaner' 'bandwhich' 'zps' 'glow' 'bigtime' 'profile-sync-daemon'
 	
 	# multimedia
-	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'gimp-refocus' 'gimp-dbp' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'oxipng' 'shortwave' 'youtube-viewer-git' 'darktable'
+	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'oxipng' 'shortwave' 'youtube-viewer-git' 'darktable'
 	
 	# fonts
 	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
@@ -32,7 +32,7 @@ depends=(
 	'kvantum-qt5' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# browsers
-	'firefox' 'firefox-i18n-pt-pt' 'falkon-git'
+	'firefox' 'firefox-i18n-pt-pt'
 	
 	# desktop utilities
 	'flameshot' 'libreoffice-fresh'
