@@ -3,7 +3,7 @@
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
 pkgver=0.0.15
-pkgrel=2
+pkgrel=3
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -29,7 +29,7 @@ depends=(
 	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
 	
 	# plasma (somewhat minimal)
-	'kvantum-qt5' 'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
+	'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
 	
 	# browsers
 	'firefox' 'firefox-i18n-pt-pt'
