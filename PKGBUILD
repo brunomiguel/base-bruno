@@ -2,8 +2,8 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver=0.0.15
-pkgrel=3
+pkgver=0.0.16
+pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -11,7 +11,7 @@ license=('GPL3')
 
 depends=(
     # base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'tmuxinator' 'reflector' 'qjournalctl' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'tealdeer' 'fzf' 'glow' 'ncdu'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'tmuxinator' 'reflector' 'qjournalctl' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'tealdeer' 'fzf' 'glow' 'ncdu' 'numlockx'
 	
 	#kernels
 	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers'
@@ -26,7 +26,7 @@ depends=(
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'oxipng' 'shortwave' 'youtube-viewer-git' 'darktable'
 	
 	# fonts
-	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans'
+	'ttf-fira-go' 'ttf-league-mono' 'ttf-inter-ui' 'ttf-roboto-mono' 'otf-new-york' 'otf-inter-ui' 'font-victor-mono' 'ttf-public-sans' 'ttf-font-awesome'
 	
 	# plasma (somewhat minimal)
 	'plasma-desktop' 'konsole' 'ark' 'gwenview' 'kde-gtk-config' 'kdeplasma-addons' 'ksysguard' 'powerdevil' 'spectacle' 'kio-extras' 'kipi-plugins' 'kcalc' 'kcron' 'dolphin' 'dolphin-plugins' 'kdeconnect' 'oxygen' 'plasma-nm' 'plasma-pa' 'konsole' 'okular' 'kate' 'print-manager' 'sddm'
