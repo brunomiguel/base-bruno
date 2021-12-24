@@ -2,10 +2,10 @@
 # using fakeroot version 1.26
 pkgname = bruno-essentials
 pkgbase = bruno-essentials
-pkgver = 0.0.18-1
+pkgver = 0.0.19-1
 pkgdesc = A metapackage for some packages I find essential. Requires userrepository.eu repo
 url = https://github.com/brunomiguel/base-bruno
-builddate = 1638391080
+builddate = 1640306337
 packager = Unknown Packager
 size = 0
 arch = any
@@ -46,7 +46,6 @@ depend = unrar
 depend = unzip
 depend = pfetch-git
 depend = profile-cleaner
-depend = bandwhich
 depend = zps
 depend = glow
 depend = bigtime
