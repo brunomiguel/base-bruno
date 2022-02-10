@@ -2,8 +2,8 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver=0.0.20
-pkgrel=2
+pkgver=0.0.21
+pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
 arch=('any')
@@ -20,7 +20,7 @@ depends=(
 	'vim' 'micro' 'emacs' 'typora'
 	
 	# cli utilities
-	'youtube-dl' 'unrar' 'unzip' 'profile-cleaner' 'zps' 'glow' 'bigtime' 'profile-sync-daemon'
+	'youtube-dl' 'unrar' 'unzip' 'profile-cleaner' 'zps' 'glow' 'bigtime' 'profile-sync-daemon' 'navi'
 	
 	# multimedia
 	'acestream-launcher' 'gimp' 'gimp-plugin-gmic' 'pavucontrol' 'vlc' 'curseradio-git' 'jpegoptim' 'optipng' 'acestream-engine' 'oxipng' 'youtube-viewer-git' 'darktable'
