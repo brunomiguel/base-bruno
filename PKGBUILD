@@ -2,7 +2,7 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver=0.0.22
+pkgver=0.0.23
 pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -11,7 +11,7 @@ license=('GPL3')
 
 depends=(
     # base
-	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'tmuxinator' 'reflector' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'fzf' 'glow' 'ncdu' 'numlockx'
+	'tmux' 'rxvt-unicode' 'urxvt-tabbedex' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'tmuxinator' 'reflector' 'openssh' 'cpupower' 'bash-completion' 'ipman' 'fzf' 'glow' 'ncdu' 'numlockx' 'zsh' 'zsh-completions' 'zsh-history-substring-search' 'cod' 'zsh-pure-prompt'
 	
 	#kernels
 	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers'
