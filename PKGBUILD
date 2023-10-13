@@ -2,7 +2,7 @@
 
 pkgname=bruno-essentials
 pkgdesc="A metapackage for some packages I find essential. Requires userrepository.eu repo"
-pkgver=0.0.27
+pkgver=0.0.28
 pkgrel=1
 
 url='https://github.com/brunomiguel/base-bruno'
@@ -11,7 +11,7 @@ license=('GPL3')
 
 depends=(
     # base
-	'tmux' 'alacritty' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'reflector' 'openssh' 'cpupower' 'bash-completion' 'fzf' 'glow' 'ncdu' 'zsh' 'zsh-completions' 'zsh-history-substring-search' 'cod' 'zsh-pure-prompt'
+	'tmux' 'gotop' 'paru' 'inxi' 'brightnessctl-git' 'broot' 'htop' 'git' 'scat' 'reflector' 'openssh' 'cpupower' 'bash-completion' 'fzf' 'glow' 'ncdu' 'zsh' 'zsh-completions' 'zsh-history-substring-search' 'cod' 'zsh-pure-prompt' 'kitty' 'kitty-terminfo' 'smug'
 	
 	#kernels
 	'linux-zen' 'linux-zen-headers' 'linux-lts' 'linux-lts-headers'
@@ -41,7 +41,7 @@ depends=(
 	'bitwarden'
 	
 	# i3
-	'i3' 'polybar' 'rofi' 'picom-ibhagwan-git' 'nitrogen'
+	'i3-wm' 'polybar' 'rofi' 'nitrogen'
 	
 	# themes and icons
 	'boston-icon-theme-git'
@@ -50,6 +50,6 @@ depends=(
 	'steam' 'gamehub' 'lutris' 'protonup-qt'
 	
 	# chat
-	'konversation' 'caprine'
+	# 'caprine'
 )
 
